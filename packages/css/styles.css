@@ -10,7 +10,7 @@
   --hue-color: 300; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
 
   /* HSL color mode */
-  --first-color: hsl(var(--hue-color), 100%, 61%);
+  --first-color: hsl(var(--hue-color), 68%, 61%);
   --first-color-second: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 53%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
@@ -27,7 +27,7 @@
   --body-font: "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-  --big-font-size: 7rem;
+  --big-font-size: 3rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1.125rem;
@@ -93,7 +93,7 @@ body.dark-theme {
   font-size: 1.25rem;
   color: var(--title-color);
   margin-right: var(--mb-1);
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .change-theme:hover {
