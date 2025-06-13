@@ -205,7 +205,7 @@ img {
 
 .nav__toggle {
   font-size: 1.1rem;
-  cursor: pointer;
+  cursor: Zoom-in;
 }
 
 .nav__toggle:hover {
@@ -458,7 +458,7 @@ img {
   display: flex;
   align-items: center;
   margin-bottom: var(--mb-2-5);
-  cursor: pointer;
+  cursor: zoom-in;
 }
 
 .skills__icon,
